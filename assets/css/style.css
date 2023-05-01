@@ -1320,6 +1320,21 @@ img {
       bottom: -4.5rem;
   }
 
+  .testi__data,
+  .testi__header{
+    flex-direction: column;
+    align-items: center;
+  }
+  .testi__img{
+    margin-right: 0;
+    margin-bottom: var(--mb-0-25);
+  }
+  .testi__data,
+  .testi__description{
+    text-align: center;
+    padding-right: 20px;
+  }
+
   /* .contact__form{
     width: 460px;
   }
